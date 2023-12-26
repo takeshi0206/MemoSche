@@ -166,7 +166,7 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#142BaseTableAnchor_">タグ</a></td><td>
-<div align="left"><a href="#142BaseTableAnchor_">15 フィールド</a> 定義済, 3 レコード</div>
+<div align="left"><a href="#142BaseTableAnchor_">15 フィールド</a> 定義済, 1 レコード</div>
 </td><td><a href="#1065125TableAnchor_"><em>タグ&raquo;タグ_更新日括り</em></a>, <a href="#1065124TableAnchor_"><em>タグ&raquo;タグ_タグ</em></a>, <a href="#1065127TableAnchor_"><em>タグ&raquo;タグ_全件</em></a>, <a href="#1065156TableAnchor_"><em>グラフ&raquo;タグ_全件</em></a>, <a href="#1065155TableAnchor_"><em>メモ&raquo;タグ_メモ主キー</em></a>, <a href="#1065122TableAnchor_"><em>タグ</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
@@ -176,7 +176,7 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#144BaseTableAnchor_">検索履歴</a></td><td>
-<div align="left"><a href="#144BaseTableAnchor_">12 フィールド</a> 定義済, 1 レコード</div>
+<div align="left"><a href="#144BaseTableAnchor_">12 フィールド</a> 定義済, 0 レコード</div>
 </td><td><a href="#1065128TableAnchor_"><em>メモ&raquo;検索履歴・作成用</em></a>, <a href="#1065130TableAnchor_"><em>メモ&raquo;検索履歴・一覧用</em></a>, <a href="#1065132TableAnchor_"><em>検索履歴&raquo;検索履歴・連結テキスト</em></a>, <a href="#1065129TableAnchor_"><em>検索履歴</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
@@ -104995,9 +104995,17 @@ If ( IsEmpty ( メモ::特定日リスト );""; ", 特定日有:" ) ]</li>
 <li></li>
 <li>End If</li>
 <li></li>
-<li>#もし引数にブラウズしたURLとマッチしたものがあったらスキップ</li>
+<li>#もし引数にブラウズしたURLとマッチしたものがあったらクリップボートのペーストだけする</li>
 <li>If [ PatternCount ( メモ::本文 ; メモ::HPのURL ) &gt; 0 ]</li>
 <li>#スキップ</li>
+<li>#2回実行することでイベント処理によりカーソル位置が復元され、最後尾に位置づけられる。</li>
+<li>選択範囲を設定 [ メモ::本文; 開始位置0; 終了位置-1 ]</li>
+<li>選択範囲を設定 [ メモ::本文; 開始位置0; 終了位置-1 ]</li>
+<li></li>
+<li>計算結果を挿入 [ メモ::本文; "&para;" ]</li>
+<li></li>
+<li>選択範囲を設定 [ メモ::本文; 開始位置0; 終了位置-1 ]</li>
+<li>貼り付け [ メモ::本文 ]</li>
 <li>Else</li>
 <li>If [ not IsEmpty ( メモ::本文 ) ]</li>
 <li>#2回実行することでイベント処理によりカーソル位置が復元され、最後尾に位置づけられる。</li>
