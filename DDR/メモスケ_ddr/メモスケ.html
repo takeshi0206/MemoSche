@@ -166,7 +166,7 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#142BaseTableAnchor_">タグ</a></td><td>
-<div align="left"><a href="#142BaseTableAnchor_">15 フィールド</a> 定義済, 1 レコード</div>
+<div align="left"><a href="#142BaseTableAnchor_">15 フィールド</a> 定義済, 0 レコード</div>
 </td><td><a href="#1065125TableAnchor_"><em>タグ&raquo;タグ_更新日括り</em></a>, <a href="#1065124TableAnchor_"><em>タグ&raquo;タグ_タグ</em></a>, <a href="#1065127TableAnchor_"><em>タグ&raquo;タグ_全件</em></a>, <a href="#1065156TableAnchor_"><em>グラフ&raquo;タグ_全件</em></a>, <a href="#1065155TableAnchor_"><em>メモ&raquo;タグ_メモ主キー</em></a>, <a href="#1065122TableAnchor_"><em>タグ</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
@@ -176,7 +176,7 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#144BaseTableAnchor_">検索履歴</a></td><td>
-<div align="left"><a href="#144BaseTableAnchor_">12 フィールド</a> 定義済, 0 レコード</div>
+<div align="left"><a href="#144BaseTableAnchor_">12 フィールド</a> 定義済, 1 レコード</div>
 </td><td><a href="#1065128TableAnchor_"><em>メモ&raquo;検索履歴・作成用</em></a>, <a href="#1065130TableAnchor_"><em>メモ&raquo;検索履歴・一覧用</em></a>, <a href="#1065132TableAnchor_"><em>検索履歴&raquo;検索履歴・連結テキスト</em></a>, <a href="#1065129TableAnchor_"><em>検索履歴</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
@@ -186,7 +186,7 @@
 </tr>
 <tr class="regularcharttext" vAlign="top">
 <td><a href="#148BaseTableAnchor_">祝祭日データ</a></td><td>
-<div align="left"><a href="#148BaseTableAnchor_">8 フィールド</a> 定義済, 57 レコード</div>
+<div align="left"><a href="#148BaseTableAnchor_">8 フィールド</a> 定義済, 58 レコード</div>
 </td><td><a href="#1065141TableAnchor_"><em>ウィークリー&raquo;祝祭日データ</em></a>, <a href="#1065139TableAnchor_"><em>祝祭日データ</em></a></td>
 </tr>
 <tr class="regularcharttext" vAlign="top">
@@ -3838,6 +3838,7 @@ RESULT = <strong>GetValue</strong> ( <strong>SortValues</strong> ( RESULT ; -3 )
 <li><a href="#23ScriptAnchor_">検索</a></li>
 <li><a href="#329ScriptAnchor_">サブ検索</a></li>
 <li><a href="#172ScriptAnchor_">タグなしを検索</a></li>
+<li><a href="#592ScriptAnchor_">ウィークリーの全県表示で新規メモ追加</a></li>
 </ul>
 </td><td>
 <ul></ul>
@@ -10610,6 +10611,7 @@ RESULT = <strong>GetValue</strong> ( <strong>SortValues</strong> ( RESULT ; -3 )
 <li><a href="#171ScriptAnchor_">カラー決定</a></li>
 <li><a href="#503ScriptAnchor_">日付チェックして週の表示</a></li>
 <li><a href="#567ScriptAnchor_">日付が変わったときの処理</a></li>
+<li><a href="#592ScriptAnchor_">ウィークリーの全県表示で新規メモ追加</a></li>
 <li><a href="#588ScriptAnchor_">日付変更チェック</a></li>
 <li><a href="#151ScriptAnchor_">ブックマークレットの設定</a></li>
 </ul>
@@ -92042,8 +92044,9 @@ RESULT = <strong>GetValue</strong> ( <strong>SortValues</strong> ( RESULT ; -3 )
 <li>変数を設定 [ $行番号; 値:Get ( アクティブポータル行番号 ) ]</li>
 <li>レコード/検索条件確定
 [ ダイアログなし ]</li>
+<li>オブジェクトへ移動 [ オブジェクト名: "リストのポータル" ]</li>
 <li>ポータル内の行へ移動 [ $行番号 ]
-[ ダイアログなし ]</li>
+[ 選択; ダイアログなし ]</li>
 <li>関連レコードへ移動 [ テーブル: 「メモ&raquo;リスト_主キー」; 使用するレイアウト: 「リスト情報」 (メモ&raquo;リスト_主キー) ]
 [ 関連レコードのみを表示; 新規ウインドウ ]</li>
 <li></li>
@@ -107010,7 +107013,7 @@ $週の最初の日 &amp; "&para;" &amp; "1" ]</li>
 <td class="chartheadersnobg">スクリプトステップ</td><td class="regularcharttext">
 <ul>
 <li></li>
-<li>#ウィークリーの全県表示で新規メモ追加</li>
+<li>#ウィークリーの全件表示で新規メモ追加</li>
 <li></li>
 <li>変数を設定 [ $クリックした日付; 値:Get ( スクリプト引数 ) ]</li>
 <li></li>
@@ -107023,7 +107026,8 @@ $週の最初の日 &amp; "&para;" &amp; "1" ]</li>
 <li>If [ Get ( 最終メッセージ選択 ) = 1 ]</li>
 <li>フィールド設定 [ メモ&raquo;ウィークリー・全件::ウィークリーポータルの指定日フィルタ; "" ]</li>
 <li></li>
-<li>スクリプト実行 [ 「カレンダーでジャンプ」; 引数: G_json ( "weekly_daily" ; "?" ) &amp; "&para;" &amp; "*" ]</li>
+<li>スクリプト実行 [ 「カレンダーでジャンプ」; 引数: G_json ( "weekly_daily" ; "?" ) &amp; "&para;" &amp; If ( IsEmpty ( 設定::検索用タグ ) ; "*"; 設定::検索用タグ) ]</li>
+<li>//  スクリプト実行 [ 「カレンダーでジャンプ」; 引数: G_json ( "weekly_daily" ; "?" ) &amp; "&para;" &amp; "*" ]</li>
 <li></li>
 <li>スクリプト実行 [ 「レコード追加」 ]</li>
 <li></li>
@@ -107050,6 +107054,7 @@ $週の最初の日 &amp; "&para;" &amp; "1" ]</li>
 <td class="chartheadersnobg">このスクリプトで使用されるフィールド</td><td class="regularcharttext">
 <ul>
 <li><a href="#14713FieldAnchor_"><em>メモ&raquo;ウィークリー・全件</em>::ウィークリーポータルの指定日フィルタ</a></li>
+<li><a href="#1317FieldAnchor_"><em>設定</em>::検索用タグ</a></li>
 <li><a href="#12936FieldAnchor_"><em>メモ</em>::開始日</a></li>
 <li><a href="#12937FieldAnchor_"><em>メモ</em>::終了日</a></li>
 </ul>
@@ -107076,6 +107081,7 @@ $週の最初の日 &amp; "&para;" &amp; "1" ]</li>
 <ul>
 <li><a href="#147BaseTableAnchor_">ウィークリー</a></li>
 <li><a href="#129BaseTableAnchor_">メモ</a></li>
+<li><a href="#131BaseTableAnchor_">設定</a></li>
 </ul>
 </td>
 </tr>
@@ -107084,6 +107090,7 @@ $週の最初の日 &amp; "&para;" &amp; "1" ]</li>
 <ul>
 <li><a href="#1065089TableAnchor_"><em>メモ</em></a></li>
 <li><a href="#1065137TableAnchor_"><em>メモ&raquo;ウィークリー・全件</em></a></li>
+<li><a href="#1065091TableAnchor_"><em>設定</em></a></li>
 </ul>
 </td>
 </tr>
