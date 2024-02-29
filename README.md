@@ -1,10 +1,8 @@
 # メモスケ MemoSche
 FileMaker custom App for personal.
 
-Claris FileMaker 2023 アプリ開発選手権
-Mac Fan賞　受賞作品
-
-https://content.claris.com/fmchampionship2023?utm_source=twitter&utm_medium=social+media&utm_campaign=FileMaker-championship-2023
+"Claris FileMaker 2023 アプリ開発選手権
+Mac Fan賞　受賞作品":https://content.claris.com/fmchampionship2023?utm_source=twitter&utm_medium=social+media&utm_campaign=FileMaker-championship-2023
 
 
 メモスケの手書きメモからチェックリスト
