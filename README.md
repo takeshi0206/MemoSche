@@ -1,4 +1,4 @@
-# MemoSche
+# メモスケ MemoSche
 FileMaker custom App for personal.
 
 メモスケの手書きメモからチェックリスト
