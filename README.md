@@ -4,6 +4,8 @@ FileMaker custom App for personal.
 [Claris FileMaker 2023 アプリ開発選手権
 Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_source=twitter&utm_medium=social+media&utm_campaign=FileMaker-championship-2023)
 
+![Mac Fan](https://github.com/takeshi0206/MemoSche/blob/1cb008c99f385ef0571f286963a81046537fcd7b/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-03-02%200.19.02.png)
+
 解説動画　YouTube
 
 [メモスケの手書きメモからチェックリスト](https://youtu.be/Ali4CysvZ-k)
