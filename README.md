@@ -11,5 +11,5 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 [メモスケの定期スケジュール設定](https://youtu.be/XswQlLXgZe4)
 
 [メモスケのSNS等からURL登録](c)
-[![Alt text](image_url)](https://youtu.be/IUQo8F6L3Kg)
+[![Alt text](スクリーンショット 2024-03-02 0.01.53.png)](https://youtu.be/IUQo8F6L3Kg)
 
