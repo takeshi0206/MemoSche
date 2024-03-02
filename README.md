@@ -18,3 +18,4 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 [メモスケのSNS等からURL登録](https://youtu.be/IUQo8F6L3Kg)
 [![メモスケのSNS等からURL登録](https://github.com/takeshi0206/MemoSche/blob/e6576ecc37a57fc73ca72bba692a4d18222c2ea3/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-03-02%200.01.53.png)](https://youtu.be/IUQo8F6L3Kg)
 
+使用しているiOSショートカット [メモスケ！v1.1 公開用リンク](https://www.icloud.com/shortcuts/5b2d17ecd1a24b7fafa0ec27f52ad5d2)
