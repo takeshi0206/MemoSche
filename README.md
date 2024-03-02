@@ -22,15 +22,15 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 
 [メモスケ！v1.1 公開用リンク](https://www.icloud.com/shortcuts/5b2d17ecd1a24b7fafa0ec27f52ad5d2)
 
-1. iOSの共有ダイヤログの上位に、メモスケ！を表示する方法
+## iOSの共有ダイヤログの上位に、メモスケ！を表示する方法
 
 <img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
 
-2. 共有ダイヤログを下にスクロールして「アクションを編集」をタップ
+1. 共有ダイヤログを下にスクロールして「アクションを編集」をタップ
 
 <img src="https://github.com/takeshi0206/MemoSche/blob/419ddba63836837233b4abc5358da87e0ba757ef/image/IMG_6934.jpg" width="320px">
 
-3. メモスケ！を上位に移動
+2. メモスケ！を上位に移動
 
 <img src="https://github.com/takeshi0206/MemoSche/blob/bbe83c0be0631cb1cb95eef2e74e650077c75b50/image/IMG_6932.jpg" width="320px">
 
