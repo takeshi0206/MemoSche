@@ -22,5 +22,8 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 
 [メモスケ！v1.1 公開用リンク](https://www.icloud.com/shortcuts/5b2d17ecd1a24b7fafa0ec27f52ad5d2)
 
-iOS
+iOSの共有メニューの上位に、メモスケ！を表示する方法
+
 <img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
+
+
