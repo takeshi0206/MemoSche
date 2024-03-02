@@ -23,7 +23,7 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 [メモスケ！v1.1 公開用リンク](https://www.icloud.com/shortcuts/5b2d17ecd1a24b7fafa0ec27f52ad5d2)
 
 
-## 公開されているiOSショートカットを自分のiPhoneに登録し、共有シートに表示する方法
+## 公開されているiOSショートカットをiPhoneに登録し、共有シートに表示する方法
 
 1. 公開用リンクをタップして表示される画面で、「ショートカットを追加」をタップ。
 <img src="https://github.com/takeshi0206/MemoSche/blob/b4d2e2d9acb842c6f7df7da9cd33fe707912fc47/image/IMG_6935.jpg" width="320px">
