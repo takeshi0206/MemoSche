@@ -23,22 +23,24 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 [メモスケ！v1.1 公開用リンク](https://www.icloud.com/shortcuts/5b2d17ecd1a24b7fafa0ec27f52ad5d2)
 
 
-## iOSショートカットを追加し、共有シートに表示する方法
+## 公開されているiOSショートカットを自分のiPhoneに登録し、共有シートに表示する方法
 
-1. 公開用リンクをタップ。「ショートカットを追加」をタップ。
-<img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
+1. 公開用リンクをタップして表示される画面で、「ショートカットを追加」をタップ。
+<img src="https://github.com/takeshi0206/MemoSche/blob/b4d2e2d9acb842c6f7df7da9cd33fe707912fc47/image/IMG_6935.jpg" width="320px">
 
 2. 「・・・」をタップ。
-<img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
+<img src="https://github.com/takeshi0206/MemoSche/blob/b4d2e2d9acb842c6f7df7da9cd33fe707912fc47/image/IMG_6938.jpg" width="320px">
 
-3. 共有アイコンをタップ。
-<img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
+3. 情報アイコンをタップ。
+<img src="https://github.com/takeshi0206/MemoSche/blob/b4d2e2d9acb842c6f7df7da9cd33fe707912fc47/image/IMG_6936.jpg" width="320px">
 
 4. 「共有シートに表示」をオンにする。
-<img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
+<img src="https://github.com/takeshi0206/MemoSche/blob/b4d2e2d9acb842c6f7df7da9cd33fe707912fc47/image/IMG_6937.jpg" width="320px">
 
 
 ## iOSの共有ダイヤログの上位に、メモスケ！を表示する方法
+
+完成形
 
 <img src="https://github.com/takeshi0206/MemoSche/blob/8cadc18fcbad7c70de3f746e44844a8b0b6e14ba/image/IMG_6933.jpg" width="320px">
 
