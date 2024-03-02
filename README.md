@@ -32,6 +32,6 @@ Mac Fan賞　受賞作品](https://content.claris.com/fmchampionship2023?utm_sou
 
 3. メモスケ！を上位に移動
 
-<img src="" width="320px">
+<img src="https://github.com/takeshi0206/MemoSche/blob/bbe83c0be0631cb1cb95eef2e74e650077c75b50/image/IMG_6932.jpg" width="320px">
 
    
